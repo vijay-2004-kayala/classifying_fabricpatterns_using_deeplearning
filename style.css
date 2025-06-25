@@ -1,0 +1,98 @@
+/* Reset default margins */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+.header {
+    background: url(https://thumbs.dreamstime.com/z/colorful-textile-rolls-stacked-warehouse-storage-organization-fabric-materials-many-neatly-showcasing-385163183.jpg) no-repeat center center/cover;
+    height: 100vh;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.navbar nav a {
+    color: white;
+    margin-left: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar nav a:hover {
+    color: #ddd;
+}
+
+.get-started-nav {
+    border: 1px solid black;
+    padding: 5px 15px;
+    border-radius: 3px;
+}
+
+.header-content {
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+.header-content h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.header-content p {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.get-started-btn {
+    padding: 10px 20px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.get-started-btn:hover {
+    background-color: white;
+    color: white;
+}
+
+.discover-section {
+    padding: 50px 100px;
+    text-align: left;
+}
+
+.discover-section h2 {
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.discover-section p {
+    font-size: 18px;
+    line-height: 1.6;
+}
